@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html5template</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag "//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js",
+                               'data-turbolinks-track':'reload'%>
+
+    <title>Coding A CSS3 &amp; HTML5 One Page Template | Tutorialzine demo</title>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

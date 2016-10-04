@@ -1,0 +1,2 @@
+module TemplateConHelper
+end
